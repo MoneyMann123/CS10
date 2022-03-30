@@ -3,7 +3,8 @@ public class
 frommetoyou 
 {
 	public static void main(String[] args) 
-	{
+	{ System.out.println("Money Mann 3/30/2022 \n\n");
+	
 		System.out.println("From: Mr. Wilson");
 		System.out.println("Address: Acer Computer, Lab 314");
 		System.out.println("Date: November2, 2020\n\n");
