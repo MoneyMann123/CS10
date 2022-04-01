@@ -11,7 +11,7 @@ PizzaCost
 		
 		double totalCost = materialCost + Laborcost + rentCost;
 		
-		System.out.println("The total cost of making the pizza is totalcost");
+		System.out.println("The total cost of making the pizza is {}");
 		
 
 
