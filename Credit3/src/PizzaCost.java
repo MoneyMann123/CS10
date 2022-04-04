@@ -11,7 +11,7 @@ PizzaCost
 		
 		double totalCost = materialCost + Laborcost + rentCost;
 		
-		String mytext = "The total cost of making the pizza is ";
+		String mytext = "The total cost of making the pizza is $";
 		
 		String TotalCost = mytext + totalCost;
 		
