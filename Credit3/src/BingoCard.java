@@ -1,6 +1,6 @@
 
 public class 
-BingoCard 
+BingoCard
 {
 	public static void main(String[] args)
 	{ System.out.println("Money Mann 4/1/2022 \n\n");
