@@ -15,6 +15,8 @@ PizzaCost
 		
 		String TotalCost = mytext + totalCost;
 		
+		System.out.println("Enter the diameter of the pizza in inches: 10 \n");
+		
 		System.out.println(TotalCost);
 
 
