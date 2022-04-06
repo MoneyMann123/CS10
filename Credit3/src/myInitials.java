@@ -1,4 +1,15 @@
 
+/*
+
+Program: myInitials.java          Date: March 30, 2022
+
+
+Author: Money Mann 
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 public class 
 myInitials 
 {

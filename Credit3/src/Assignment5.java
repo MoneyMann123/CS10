@@ -1,4 +1,16 @@
 
+/*
+
+Program: Assignment5.java          Date: April 4, 2022
+
+
+Author: Money Mann 
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
 public class 
 Assignment5 
 {

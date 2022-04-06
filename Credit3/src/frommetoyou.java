@@ -1,4 +1,15 @@
 
+/*
+
+Program: frommetoyou.java          Date: March 30, 2022
+
+
+Author: Money Mann 
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 //By: Money Money
 public class 
 frommetoyou 

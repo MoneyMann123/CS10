@@ -1,4 +1,15 @@
 
+/*
+
+Program: BingoCard.java          Date: April 1, 2022
+
+
+Author: Money Mann 
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 public class 
 BingoCard
 {
