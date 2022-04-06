@@ -11,8 +11,7 @@ Course: Computer Science 10
 
 */
 //By: Money Money
-public class 
-frommetoyou 
+public class frommetoyou 
 {
 	public static void main(String[] args) 
 	{ System.out.println("Money Mann 3/30/2022 \n\n");
