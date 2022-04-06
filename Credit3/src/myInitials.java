@@ -29,3 +29,19 @@ myInitials
 	
 
 }
+/* Screen Dump
+
+Money Mann 3/30/2022 
+
+
+First Name: Money
+Last Name: Mann
+
+
+    * 	*           * 	*
+   *  *  *         *  *  *
+  *       *       *        *
+ *         *  $  *          *
+
+
+ */

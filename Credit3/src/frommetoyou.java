@@ -26,3 +26,20 @@ frommetoyou
 	}
 
 }
+/* Screen Dump
+
+Money Mann 3/30/2022 
+
+
+From: Mr. Wilson
+Address: Acer Computer, Lab 314
+Date: November2, 2020
+
+
+To: Money Mann
+
+
+Message: Help! I'm trapped inside a computer!
+
+
+*/
