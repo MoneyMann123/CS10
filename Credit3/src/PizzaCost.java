@@ -18,11 +18,11 @@ public class PizzaCost
 	public static void main(String[] args)
 	{ System.out.println("Money Mann 4/1/2022 \n\n");
 	
-	Scanner myObj = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
     double userName;
     
     System.out.println("Enter the diameter of the pizza in inches:"); 
-    userName = myObj.nextDouble();   
+    userName = input.nextDouble();   
        
     System.out.println("Diameter is: " + userName);
 		
