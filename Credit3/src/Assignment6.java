@@ -55,7 +55,7 @@ public class Assignment6
     System.out.println("What is your favourite hobby?:"); 
     hobby = input.next();   
        
-    System.out.println("You favourite hobbie is " + hobby + "\n\n");
+    System.out.println("You favourite hobby is " + hobby + "\n\n");
     
     System.out.println("Hello, your name is " + firstName + " " + lastName + ", " + "you are currently in grade " + gradenum + " at " + schoolName + ". " + "Your favourite hobby is " + hobby);
 		
@@ -69,7 +69,35 @@ public class Assignment6
 }
 /* Screen Dump
 
+Money Mann 4/6/2022 
 
+
+Hello what is your firstname?
+Money
+Your first name is Money
+
+
+What is your lastname?:
+Mann
+Your last name is Mann
+
+
+What grade are you in?
+10
+Your are in grade 10
+
+
+What school do you attend?:
+CHHS
+You attend CHHS
+
+
+What is your favourite hobby?:
+Basketball
+You favourite hobbie is Basketball
+
+
+Hello, your name is Money Mann, you are currently in grade 10 at CHHS. Your favourite hobby is Basketball
 
 
  */
