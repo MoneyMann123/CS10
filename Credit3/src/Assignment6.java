@@ -57,7 +57,8 @@ public class Assignment6
        
     System.out.println("You favourite hobby is " + hobby + "\n\n");
     
-    System.out.println("Hello, your name is " + firstName + " " + lastName + ", " + "you are currently in grade " + gradenum + " at " + schoolName + ". " + "Your favourite hobby is " + hobby);
+    
+    System.out.println("Hello, your name is " + firstName + " " + lastName + ", " + "you are currently in grade " + gradenum + " at " + schoolName + ". " + "Your favourite hobby is " + hobby + ".");
 		
 		
 		
