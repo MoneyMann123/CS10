@@ -32,7 +32,7 @@ public class Assignment8twodigit
 }
 /* Screen Dump
 
-Money Mann 4/11/2022 
+Money Mnn 4/11/2022 
 
 
 Enter a two digit number: 
