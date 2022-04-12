@@ -1,5 +1,15 @@
 package Exercises;
 
-public class Exzercise20 {
-
+public class Exzercise20 
+{
+	{
+	
+	
+	
+	
+	
+	
+	
+	
+	}
 }
