@@ -23,11 +23,12 @@ public class Assignment10
 		System.out.println("Enter an integer: ");
 		int num = userinput.nextInt();
 		
-		int intnum = (num / 2);
+		int intnum = (num % 2);
 		
 		if (intnum == 0) {
 			System.out.println("The integer " + num + " is even");
-			
+		} else {
+			System.out.println("The integer " + num + " is odd");
 		}
 		
 	}
