@@ -31,6 +31,32 @@ public class Assignment10
 			System.out.println("The integer " + num + " is odd");
 		}
 		
+		System.out.println("\n" + "Enter an integer: ");
+		int num2 = userinput.nextInt();
+		
+		int intnum2 = (num2 % 2);
+		
+		if (intnum2 == 0) {
+			System.out.println("The integer " + num2 + " is even");
+		} else {
+			System.out.println("The integer " + num2 + " is odd");
+		}
+		
+		
 	}
 
 }
+/* Screen Dump
+
+Money Mann 4/14/2022 
+
+
+Enter an integer: 
+2
+The integer 2 is even
+
+Enter an integer: 
+1
+The integer 1 is odd
+
+ */
