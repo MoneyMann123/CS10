@@ -16,7 +16,7 @@ public class Credit3GUI {
 	private JFrame frame;
 	private JTextField fnl;
 	private JTextField LNN;
-	private JTextField textField_2;
+	private JTextField G2;
 
 	/**
 	 * Launch the application.
@@ -78,10 +78,10 @@ public class Credit3GUI {
 		ag.setBounds(37, 85, 46, 14);
 		panel.add(ag);
 		
-		textField_2 = new JTextField();
-		textField_2.setBounds(119, 85, 72, 20);
-		panel.add(textField_2);
-		textField_2.setColumns(10);
+		G2 = new JTextField();
+		G2.setBounds(119, 85, 72, 20);
+		panel.add(G2);
+		G2.setColumns(10);
 		
 		JButton sub = new JButton("Submit");
 		sub.addActionListener(new ActionListener() 
@@ -90,7 +90,10 @@ public class Credit3GUI {
 			{
 				String FN = fnl.getText();
 				String LN = LNN.getText();
-				dis.setText("First name: " + FN + "last name: " + LN);
+				String ag = G2.getText();
+				
+				dis.setText("First")
+				
 			}
 		});
 		sub.setFont(new Font("Times New Roman", Font.ITALIC, 11));
@@ -104,6 +107,14 @@ public class Credit3GUI {
 		panel.add(or);
 		
 		JButton res = new JButton("Reset");
+		res.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				fnl.setText(" ");
+				LNN.setText(" ");
+				G2.setText(" ");
+			}
+		});
 		res.setFont(new Font("Times New Roman", Font.ITALIC, 11));
 		res.setBounds(392, 140, 126, 23);
 		panel.add(res);
