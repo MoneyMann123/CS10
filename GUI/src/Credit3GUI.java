@@ -92,7 +92,7 @@ public class Credit3GUI {
 				String LN = LNN.getText();
 				String ag = G2.getText();
 				
-				dis.setText("First name: ")
+				
 				
 			}
 		});
@@ -119,8 +119,8 @@ public class Credit3GUI {
 		res.setBounds(392, 140, 126, 23);
 		panel.add(res);
 		
-		JPanel panel_1 = new JPanel();
-		panel_1.setBounds(10, 197, 539, 85);
-		panel.add(panel_1);
+		JPanel dis = new JPanel();
+		dis.setBounds(10, 197, 539, 85);
+		panel.add(dis);
 	}
 }
