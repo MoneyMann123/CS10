@@ -92,7 +92,7 @@ public class Credit3GUI {
 				String LN = LNN.getText();
 				String ag = G2.getText();
 				
-				dis.setText("First")
+				dis.setText("First name: ")
 				
 			}
 		});
