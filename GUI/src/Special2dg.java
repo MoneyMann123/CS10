@@ -60,19 +60,21 @@ public class Special2dg {
 		panel.add(twodgt);
 		twodgt.setColumns(10);
 		
-		JLabel dis = new JLabel("New label");
-		dis.setBounds(10, 161, 298, 55);
+		JLabel dis = new JLabel("output");
+		dis.setBounds(40, 173, 298, 55);
 		panel.add(dis);
 		
 		JButton en = new JButton("Enter");
 		en.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
-				String twoDigit = twodgt.getText();
-				int twoD = Integer.parseInt(twoDigit);
+				String twoDigit = twodgt.getText();//record the two digits
+				int twoD = Integer.parseInt(twoDigit);//get the integer part
 				int firstD = twoD / 10;
 				
 				//int sum = 
+				
+				dis.setText(""+firstD);
 				
 				
 				
