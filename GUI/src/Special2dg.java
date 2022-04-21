@@ -98,6 +98,12 @@ public class Special2dg {
 		panel.add(en);
 		
 		JButton clr = new JButton("Clear");
+		clr.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				twodgt.setText(" ");
+			}
+		});
 		clr.setBounds(275, 127, 107, 35);
 		panel.add(clr);
 	}
