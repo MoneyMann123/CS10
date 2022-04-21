@@ -101,8 +101,8 @@ public class Special2dg {
 		clr.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
-				twodgt.setText(" ");
-				dis.setText(" ");
+				twodgt.setText("");
+				dis.setText("");
 			}
 		});
 		clr.setBounds(275, 127, 107, 35);
