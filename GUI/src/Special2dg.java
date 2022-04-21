@@ -60,7 +60,7 @@ public class Special2dg {
 		panel.add(twodgt);
 		twodgt.setColumns(10);
 		
-		JLabel dis = new JLabel("output");
+		JLabel dis = new JLabel("");
 		dis.setBounds(40, 173, 298, 55);
 		panel.add(dis);
 		
@@ -78,7 +78,17 @@ public class Special2dg {
 				
 				int prdc = firstD * secondD;// record the product
 				
-				dis.setText(""+firstD);//display the special number
+				int check = sum + prdc;
+				
+				if(check == twoD) 
+				{
+					dis.setText(twoD + " is a special two digit number.");
+				} else 
+				{
+					dis.setText(twoD + " is not a special two digit number.");
+				}
+				
+				//dis.setText(""+firstD);//display the special number
 				
 				
 				
