@@ -15,12 +15,12 @@ Course: Computer Science 10
 public class Assignment7 
 {
 	public static void main(String[] args)
-	{System.out.println("Money Mann 4/11/2022 \n\n");
+	{System.out.println("Money Mann 4/11/2022 \n\n");//print first and last name with date
 	
-	Scanner userinput = new Scanner(System.in);
+	Scanner userinput = new Scanner(System.in);//create a scanner object
 	
-	System.out.println("Enter the change in cents: ");
-	int change = userinput.nextInt();
+	System.out.println("Enter the change in cents: ");//ask the user to enter the change in cents
+	int change = userinput.nextInt();//assign the user input of change in cents to a variable called change
 	
 	int quarters = change / 25;
 	int dimes = (change % 25) / 10;

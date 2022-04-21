@@ -13,14 +13,14 @@ Course: Computer Science 10
 public class myInitials 
 {
 	public static void main(String[] args)
-	{ System.out.println("Money Mann 3/30/2022 \n\n");
-		System.out.println("First Name: Money");
-		System.out.println("Last Name: Mann\n\n");
+	{ 
+		System.out.println("First Name: Money");//print first name
+		System.out.println("Last Name: Mann\n\n");//print last name and space for the next line
 	
-		System.out.println("    * \t*           * \t*");
-		System.out.println("   *  *  *         *  *  *");
-		System.out.println("  *       *       *        *");
-		System.out.println(" *         *  $  *          *"); 
+		System.out.println("    * \t*           * \t*");//print first line
+		System.out.println("   *  *  *         *  *  *");//print second line
+		System.out.println("  *       *       *        *");//print third line
+		System.out.println(" *         *  $  *          *"); //print fourth line
 		
 		
 		
