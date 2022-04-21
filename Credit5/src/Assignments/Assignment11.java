@@ -11,7 +11,8 @@ public class Assignment11
 		System.out.println("Enter a three digit number: ");
 		int num = userinput.nextInt();
 		
-		int digit1 = (num / 2);
+		int digit1 = (num / 100);
+		int digit2 = (num % 100);
 		
 		
 	}

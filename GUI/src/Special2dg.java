@@ -70,11 +70,15 @@ public class Special2dg {
 			{
 				String twoDigit = twodgt.getText();//record the two digits
 				int twoD = Integer.parseInt(twoDigit);//get the integer part
-				int firstD = twoD / 10;
 				
-				//int sum = 
+				int firstD = twoD / 10;//record first digit
+				int secondD = twoD % 10;//record second digit
 				
-				dis.setText(""+firstD);
+				int sum = firstD + secondD;//record the sum
+				
+				int prdc = firstD * secondD;// record the product
+				
+				dis.setText(""+firstD);//display the special number
 				
 				
 				
