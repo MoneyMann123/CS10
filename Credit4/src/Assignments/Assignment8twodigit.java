@@ -6,7 +6,7 @@ import java.util.Scanner;
 Program: Assignment8twodigit.java          Date: 4/11/2022
 
 
-Author: Please enter your first and last name here 
+Author: Money Mann  
 School: CHHS
 Course: Computer Science 10
  

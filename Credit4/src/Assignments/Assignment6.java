@@ -2,13 +2,16 @@ package Assignments;
 import java.util.Scanner;
 
 /*
-Program: Assignment6.java          Date: April 6, 2022
+
+Program: Assignment6.java          Date: 4/14/2022
 
 
-Author: Money Mann
+Author: Money Mann 
 School: CHHS
 Course: Computer Science 10
- */
+ 
+
+*/
 
 import java.util.*;
 

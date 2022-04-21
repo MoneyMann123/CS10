@@ -1,6 +1,18 @@
 package Assignments;
 import java.util.Scanner;
 
+/*
+
+Program: Assignment11.java          Date: 4/14/2022
+
+
+Author: Money Mann  
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
 public class Assignment11
 {	
 	public static void main(String[] args)
