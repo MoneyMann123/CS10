@@ -8,11 +8,16 @@ public class Assignment11
 	
 		Scanner userinput = new Scanner(System.in);
 		
-		System.out.println("Enter a three digit number: ");
+		System.out.println(" Please enter a three digit number: ");
 		int num = userinput.nextInt();
 		
 		int digit1 = (num / 100);
-		int digit2 = (num % 100);
+		int digit2 = (num % 100) / 10;
+		int digit3 = (num % 10);
+		
+		System.out.println("your first digit is: " + digit1);
+		System.out.println("your second digit is: " + digit2);
+		System.out.println("your third digit is: " + digit3);
 		
 		
 	}
