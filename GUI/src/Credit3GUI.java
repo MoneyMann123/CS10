@@ -10,13 +10,14 @@ import javax.swing.JButton;
 import javax.swing.SwingConstants;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class Credit3GUI {
 
 	private JFrame frame;
 	private JTextField fnl;
 	private JTextField LNN;
-	private JTextField G2;
 
 	/**
 	 * Launch the application.
@@ -82,12 +83,6 @@ public class Credit3GUI {
 		ag.setBounds(37, 88, 46, 14);
 		panel.add(ag);
 		
-		G2 = new JTextField();
-		G2.setFont(new Font("Sitka Text", Font.ITALIC, 11));
-		G2.setBounds(119, 85, 72, 20);
-		panel.add(G2);
-		G2.setColumns(10);
-		
 		JButton sub = new JButton("Submit");
 		sub.addActionListener(new ActionListener() 
 		{
@@ -95,9 +90,9 @@ public class Credit3GUI {
 			{
 				String FN = fnl.getText();
 				String LN = LNN.getText();
-				String ag = G2.getText();
+				String ag = j2.getText();
 				
-				
+				if(j2.getSelectedItem().equals("10"));
 				
 			}
 		});
@@ -127,5 +122,11 @@ public class Credit3GUI {
 		JPanel dis = new JPanel();
 		dis.setBounds(10, 197, 539, 85);
 		panel.add(dis);
+		
+		JComboBox j2 = new JComboBox();
+		j2.setFont(new Font("Sitka Text", Font.ITALIC, 11));
+		j2.setModel(new DefaultComboBoxModel(new String[] {"10", "11", "12"}));
+		j2.setBounds(119, 82, 77, 22);
+		panel.add(j2);
 	}
 }
