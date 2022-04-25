@@ -77,9 +77,9 @@ public class Credit3GUI {
 		panel.add(LNN);
 		LNN.setColumns(10);
 		
-		JLabel ag = new JLabel("Age");
+		JLabel ag = new JLabel("Grade");
 		ag.setFont(new Font("Sitka Text", Font.BOLD | Font.ITALIC, 11));
-		ag.setBounds(37, 85, 46, 14);
+		ag.setBounds(37, 88, 46, 14);
 		panel.add(ag);
 		
 		G2 = new JTextField();
