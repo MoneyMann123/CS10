@@ -90,9 +90,14 @@ public class Credit3GUI {
 			{
 				String FN = fnl.getText();
 				String LN = LNN.getText();
-				String ag = j2.getText();
 				
 				if(j2.getSelectedItem().equals("10"));
+				
+				JComboBox j2 = new JComboBox();
+				j2.setFont(new Font("Sitka Text", Font.ITALIC, 11));
+				j2.setModel(new DefaultComboBoxModel(new String[] {"10", "11", "12"}));
+				j2.setBounds(119, 82, 77, 22);
+				panel.add(j2);
 				
 			}
 		});
@@ -112,7 +117,6 @@ public class Credit3GUI {
 			{
 				fnl.setText(" ");
 				LNN.setText(" ");
-				G2.setText(" ");
 			}
 		});
 		res.setFont(new Font("Times New Roman", Font.ITALIC, 11));

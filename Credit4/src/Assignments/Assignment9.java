@@ -18,7 +18,7 @@ public class Assignment9
 	
 	Scanner userinput = new Scanner(System.in);//create a scanner object
 	
-	System.out.println("Enter an integer: ");//ask user to input a integer
+	System.out.println("Enter an integer: ");//ask user to input an integer
 	int number = userinput.nextInt();//assign the user input to variable called number
 	
 	System.out.println("Enter a second integer: ");//ask the user to input another integer
