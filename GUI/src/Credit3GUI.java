@@ -56,29 +56,34 @@ public class Credit3GUI {
 		panel.setLayout(null);
 		
 		JLabel fn = new JLabel("First Name");
+		fn.setFont(new Font("Sitka Subheading", Font.BOLD | Font.ITALIC, 11));
 		fn.setBounds(37, 11, 72, 21);
 		panel.add(fn);
 		
 		fnl = new JTextField();
-		fnl.setFont(new Font("Tahoma", Font.ITALIC, 11));
+		fnl.setFont(new Font("Sitka Text", Font.ITALIC, 11));
 		fnl.setBounds(119, 11, 168, 20);
 		panel.add(fnl);
 		fnl.setColumns(10);
 		
 		JLabel Ln = new JLabel("Last Name");
+		Ln.setFont(new Font("Sitka Text", Font.BOLD | Font.ITALIC, 11));
 		Ln.setBounds(37, 47, 58, 17);
 		panel.add(Ln);
 		
 		LNN = new JTextField();
+		LNN.setFont(new Font("Sitka Text", Font.ITALIC, 11));
 		LNN.setBounds(119, 45, 168, 19);
 		panel.add(LNN);
 		LNN.setColumns(10);
 		
 		JLabel ag = new JLabel("Age");
+		ag.setFont(new Font("Sitka Text", Font.BOLD | Font.ITALIC, 11));
 		ag.setBounds(37, 85, 46, 14);
 		panel.add(ag);
 		
 		G2 = new JTextField();
+		G2.setFont(new Font("Sitka Text", Font.ITALIC, 11));
 		G2.setBounds(119, 85, 72, 20);
 		panel.add(G2);
 		G2.setColumns(10);
