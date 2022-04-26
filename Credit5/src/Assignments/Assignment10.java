@@ -28,7 +28,9 @@ public class Assignment10
 		
 		if (intnum == 0) {
 			System.out.println("The integer " + num + " is even");//print "num is even"
-		} else {
+		} 
+		else 
+		{
 			System.out.println("The integer " + num + " is odd");//print "num is odd"
 		}
 		
@@ -39,7 +41,9 @@ public class Assignment10
 		
 		if (intnum2 == 0) {
 			System.out.println("The integer " + num2 + " is even");//print "num2 is even"
-		} else {
+		} 
+		else 
+		{
 			System.out.println("The integer " + num2 + " is odd");//print "num2 is odd"
 		}
 		

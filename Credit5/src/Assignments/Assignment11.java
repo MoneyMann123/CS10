@@ -40,7 +40,7 @@ public class Assignment11
 			min = digit1;// assign calculation to variable
 			
 			System.out.println("The largest of the three digits is: " + digit3);//input and display answer for user
-			System.out.println("The smallest of the three sigits is: " + digit1);//input and display answer for user
+			System.out.println("The smallest of the three digits is: " + digit1);//input and display answer for user
 		}
 		else if(digit1 > digit2 && digit2 > digit3)//create else if statement
 		{
@@ -103,7 +103,7 @@ your second digit is: 2
 your third digit is: 3
 
 The largest of the three digits is: 3
-The smallest of the three sigits is: 1
+The smallest of the three digits is: 1
 
 
 The sum of the three digits is: 6
