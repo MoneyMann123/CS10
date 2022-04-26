@@ -16,7 +16,8 @@ Course: Computer Science 10
 public class Assignment10
 {	
 	public static void main(String[] args)
-	{	System.out.println("Money Mann 4/14/2022 \n\n");//print first and last name with date
+	{	
+		System.out.println("Money Mann 4/14/2022 \n\n");//print first and last name with date
 	
 		Scanner userinput = new Scanner(System.in);//create a scanner object
 		
