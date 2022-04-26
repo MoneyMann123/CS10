@@ -17,77 +17,77 @@ public class Assignment11
 {	
 	public static void main(String[] args)
 	{	
-		System.out.println("Money Mann 4/26/2022 \n\n");
+		System.out.println("Money Mann 4/26/2022 \n\n");//print first and last name with date
 	
-		Scanner userinput = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);//create scanner onject
 		
-		System.out.println("Please enter a three digit number: ");
-		int num = userinput.nextInt();
+		System.out.println("Please enter a three digit number: ");//ask user to input
+		int num = userinput.nextInt();//assign user input to variable
 		
-		int digit1 = (num / 100);
-		int digit2 = (num % 100) / 10;
-		int digit3 = (num % 10);
+		int digit1 = (num / 100);//record digit1
+		int digit2 = (num % 100) / 10;//record digit2
+		int digit3 = (num % 10);//record digit3
 		
-		System.out.println("your first digit is: " + digit1);
-		System.out.println("your second digit is: " + digit2);
-		System.out.println("your third digit is: " + digit3 + "\n");
+		System.out.println("your first digit is: " + digit1);//input and display answer for user
+		System.out.println("your second digit is: " + digit2);//input and display answer for user
+		System.out.println("your third digit is: " + digit3 + "\n");//input and display answer for user
 		
-		int max, min = 0;
+		int max, min = 0;//record max, min
 		
-		if(digit1 < digit2 && digit2 < digit3) 
+		if(digit1 < digit2 && digit2 < digit3) //create if statement
 		{
-			max = digit3;
-			min = digit1;
+			max = digit3;// assign calculation to variable
+			min = digit1;// assign calculation to variable
 			
-			System.out.println("The largest of the three digits is: " + digit3);
-			System.out.println("The smallest of the three sigits is: " + digit1);
+			System.out.println("The largest of the three digits is: " + digit3);//input and display answer for user
+			System.out.println("The smallest of the three sigits is: " + digit1);//input and display answer for user
 		}
-		else if(digit1 > digit2 && digit2 > digit3) 
+		else if(digit1 > digit2 && digit2 > digit3)//create else if statement
 		{
-			max = digit1;
-			min = digit3;
+			max = digit1;// assign calculation to variable
+			min = digit3;// assign calculation to variable
 			
-			System.out.println("The largest of the three digits is: " + digit1);
-			System.out.println("The smallest of the three digits is :" + digit3);
+			System.out.println("The largest of the three digits is: " + digit1);//input and display answer for user
+			System.out.println("The smallest of the three digits is :" + digit3);//input and display answer for user
 		} 
-		else if(digit2 > digit1 && digit1 > digit3) 
+		else if(digit2 > digit1 && digit1 > digit3) //create else if statement
 		{
-			max = digit2;
-			min = digit3;
+			max = digit2;// assign calculation to variable
+			min = digit3;// assign calculation to variable
 			
-			System.out.println("The largest of the three digits is: " + digit2);
-			System.out.println("The smallest of the three digits is: " + digit3);
+			System.out.println("The largest of the three digits is: " + digit2);//input and display answer for user
+			System.out.println("The smallest of the three digits is: " + digit3);//input and display answer for user
 		} 
-		else if(digit3 > digit2 && digit2 > digit1) 
+		else if(digit3 > digit2 && digit2 > digit1) //create else if statement
 		{
-			max = digit3;
-			min = digit1;
+			max = digit3;// assign calculation to variable
+			min = digit1;// assign calculation to variable
 		}
-		else if(digit3 > digit1 && digit1 > digit2) 
+		else if(digit3 > digit1 && digit1 > digit2) //create else if statement
 		{
-			max = digit3;
-			min = digit2;
+			max = digit3;// assign calculation to variable
+			min = digit2;// assign calculation to variable
 			
-			System.out.println("The largest of the three digits is: " + digit3);
-			System.out.println("The smallest of the three digits is: " + digit2);
+			System.out.println("The largest of the three digits is: " + digit3);//input and display answer for user
+			System.out.println("The smallest of the three digits is: " + digit2);//input and display answer for user
 		}
-		else 
+		else //create else statement
 		{
-			System.out.println("WRONG INPUT, CANNOT HAVE SAME DIGITS, TRY AGAIN!");
+			System.out.println("WRONG INPUT, CANNOT HAVE SAME DIGITS, TRY AGAIN!");//display error for user
 		}
-		System.out.println("\n");
+		System.out.println("\n");//add space
 		
-		int sum = digit1 + digit2 + digit3;
+		int sum = digit1 + digit2 + digit3;//create sum variable
 		
-		System.out.println("The sum of the three digits is: " + sum );
+		System.out.println("The sum of the three digits is: " + sum );//input and display answer for user
 		
-		int product = digit1 * digit2 * digit3;
+		int product = digit1 * digit2 * digit3;//create product variable
 		
-		System.out.println("The product of the three digits is: " + product);
+		System.out.println("The product of the three digits is: " + product);//input and display answer for user
 		
-		int average = (digit1 + digit2 + digit3) / 3;
+		int average = (digit1 + digit2 + digit3) / 3;//create average variable
 		
-		System.out.println("The average of the three digits is: " + average);
+		System.out.println("The average of the three digits is: " + average);//input and display answer for user
 		
 	}
 }
