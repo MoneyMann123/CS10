@@ -39,6 +39,21 @@ public class Assignment13
 			System.out.println("Price per copy is: $0.27" + "\n");
 			System.out.println("Total cost is: $" + num * 0.27);
 		}
+		else if (num > 750 && num < 1000) 
+		{
+			System.out.println("Price per copy is: $0.26" + "\n");
+			System.out.println("Total cost is: $" + num * 0.26);
+		}
+		else if(num > 1000)
+		{
+			System.out.println("Price per copy is: $0.25" + "\n");
+			System.out.println("Total price is: $" + num * 0.25);
+			
+		}
+		else 
+		{
+			System.out.println("ERROR, TRY DIFFERENT NUMBER");
+		}
 		
 		
 		
