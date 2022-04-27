@@ -19,7 +19,7 @@ public class Assignment11
 	{	
 		System.out.println("Money Mann 4/26/2022 \n\n");//print first and last name with date
 	
-		Scanner userinput = new Scanner(System.in);//create scanner onject
+		Scanner userinput = new Scanner(System.in);//create scanner object
 		
 		System.out.println("Please enter a three digit number: ");//ask user to input
 		int num = userinput.nextInt();//assign user input to variable
@@ -75,6 +75,7 @@ public class Assignment11
 		{
 			System.out.println("WRONG INPUT, CANNOT HAVE SAME DIGITS, TRY AGAIN!");//display error for user
 		}
+		
 		System.out.println("\n");//add space
 		
 		int sum = digit1 + digit2 + digit3;//create sum variable
