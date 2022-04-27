@@ -30,48 +30,48 @@ public class Assignment12
 		}
 		else switch (percentage) // else switch statement
 		{
-		case 50://case 50
-		case 51://case 51
-		case 52://case 52
-		case 53://case 53
-		case 54://case 54
-			System.out.println("The corresponding letter grade is: D");//output for cases 50 - 54
-			break;//break case
-		case 55://case 55
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+			System.out.println("The corresponding letter grade is: D");//output D for a grade from 50 - 54%
+			break;//break out of the case
+		case 55:
 		case 56:
 		case 57:
 		case 58:
 		case 59:
-			System.out.println("The corresponding letter grade is: D+");
-			break;
+			System.out.println("The corresponding letter grade is: D+");//output D+ for a grade from 55 - 59%
+			break;//break out of case
 		case 60:
 		case 61:
 		case 62:
 		case 63:
 		case 64:
-			System.out.println("The corresponding letter grade is: C");
-			break;
+			System.out.println("The corresponding letter grade is: C");//output C for a grade from 60 - 64%
+			break;//break out of case
 		case 65:
 		case 66:
 		case 67:
 		case 68:
 		case 69:
-			System.out.println("The corresponding letter grade is: C+");
-			break;
+			System.out.println("The corresponding letter grade is: C+");//output C+ for a grade from 65 - 69%
+			break;//break out of case
 		case 70:
 		case 71:
 		case 72:
 		case 73:
 		case 74:
-			System.out.println("The corresponding letter grade is: B");
-			break;
+			System.out.println("The corresponding letter grade is: B");//output B for a grade from 70 - 74%
+			break;//break out of case
 		case 75:
 		case 76:
 		case 77:
 		case 78:
 		case 79:
-			System.out.println("The corresponding letter grade is: B+");
-			break;
+			System.out.println("The corresponding letter grade is: B+");//output B+ for a grade from 75 - 79%
+			break;//break out of case
 		case 80:
 		case 81:
 		case 82:
@@ -82,8 +82,8 @@ public class Assignment12
 		case 87:
 		case 88:
 		case 89:
-			System.out.println("The corresponding letter grade is: A");
-			break;
+			System.out.println("The corresponding letter grade is: A");//output A for a grade from 80 - 89%
+			break;//break our of case
 		case 90:
 		case 91:
 		case 92:
@@ -95,8 +95,8 @@ public class Assignment12
 		case 98:
 		case 99:
 		case 100:
-			System.out.println("The corresponding letter grade is: A+");
-			break;
+			System.out.println("The corresponding letter grade is: A+");//output A+ for a grade from 90 - 100%
+			break;//break out of case
 			
 		}		
 	}
