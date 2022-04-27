@@ -24,20 +24,20 @@ public class Assignment12
 		System.out.println("Please enter a grade percentage: ");//ask user to input grade percentage
 		int percentage = userinput.nextInt();//assign user input to variable
 		
-		if(percentage < 50) 
+		if(percentage < 50) //if statement
 		{
-			System.out.println("F");
+			System.out.println("F");//output "F" for if statement
 		}
-		else switch (percentage) 
+		else switch (percentage) // else switch statement
 		{
-		case 50:
-		case 51:
-		case 52:
-		case 53:
-		case 54:
-			System.out.println("The corresponding letter grade is: D");
-			break;
-		case 55:
+		case 50://case 50
+		case 51://case 51
+		case 52://case 52
+		case 53://case 53
+		case 54://case 54
+			System.out.println("The corresponding letter grade is: D");//output for cases 50 - 54
+			break;//break case
+		case 55://case 55
 		case 56:
 		case 57:
 		case 58:
