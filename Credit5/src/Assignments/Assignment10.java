@@ -26,7 +26,8 @@ public class Assignment10
 		
 		int intnum = (num % 2);//record intnum
 		
-		if (intnum == 0) {
+		if (intnum == 0) 
+		{
 			System.out.println("The integer " + num + " is even");//print "num is even"
 		} 
 		else 
@@ -39,7 +40,8 @@ public class Assignment10
 		
 		int intnum2 = (num2 % 2);//record intnum2
 		
-		if (intnum2 == 0) {
+		if (intnum2 == 0) 
+		{
 			System.out.println("The integer " + num2 + " is even");//print "num2 is even"
 		} 
 		else 

@@ -13,7 +13,8 @@ Course: Computer Science 10
 public class BingoCard
 {
 	public static void main(String[] args)
-	{ System.out.println("Money Mann 4/1/2022 \n\n");//print first and last name with date
+	{ 
+		System.out.println("Money Mann 4/1/2022 \n\n");//print first and last name with date
 		
 		System.out.println("B \t I \t N \t G \t O");// print first line
 		System.out.println("8 \t 16 \t 45 \t 55 \t 74");// print second line

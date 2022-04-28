@@ -14,7 +14,8 @@ Course: Computer Science 10
 public class frommetoyou 
 {
 	public static void main(String[] args) 
-	{ System.out.println("Money Mann 3/30/2022 \n\n");// print first and last name with date
+	{ 
+		System.out.println("Money Mann 3/30/2022 \n\n");// print first and last name with date
 	
 		System.out.println("From: Mr. Wilson");//print name the letter is going to to
 		System.out.println("Address: Acer Computer, Lab 314");// print the address

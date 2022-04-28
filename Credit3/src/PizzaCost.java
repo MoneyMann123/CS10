@@ -16,15 +16,16 @@ import java.util.*;
 public class PizzaCost 
 {
 	public static void main(String[] args)
-	{ System.out.println("Money Mann 4/1/2022 \n\n");//print first and last name with date
+	{ 
+		System.out.println("Money Mann 4/1/2022 \n\n");//print first and last name with date
 	
-	Scanner input = new Scanner(System.in);// create a scanner object
-    double userName;
+		Scanner input = new Scanner(System.in);// create a scanner object
+		double userName;
     
-    System.out.println("Enter the diameter of the pizza in inches:"); //user inputs diameter of the pizza in inches
-    userName = input.nextDouble(); //the number the user enters is stored in a string  
+		System.out.println("Enter the diameter of the pizza in inches:"); //user inputs diameter of the pizza in inches
+		userName = input.nextDouble(); //the number the user enters is stored in a string  
        
-    System.out.println("Diameter is: " + userName);//print and inform the user of the diameter they entered
+		System.out.println("Diameter is: " + userName);//print and inform the user of the diameter they entered
 		
 		double Laborcost = 0.75;//labor cost
 		int rentCost = 1;//rental cost
