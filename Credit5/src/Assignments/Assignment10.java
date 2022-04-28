@@ -22,7 +22,7 @@ public class Assignment10
 		Scanner userinput = new Scanner(System.in);//create a scanner object
 		
 		System.out.println("Enter an integer: ");//ask user to enter an integer
-		int num = userinput.nextInt();//assign the user input to variable called num
+		int num = userinput.nextInt();//assign the user input to variable int num
 		
 		int intnum = (num % 2);//record intnum
 		

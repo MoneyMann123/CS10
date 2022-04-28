@@ -22,7 +22,7 @@ public class Assignment13
 		Scanner userinput = new Scanner(System.in);//create scanner object
 		
 		System.out.println("Enter the number of copies to be printed: ");//ask user to input number of copies
-		int num = userinput.nextInt();//assign user input to variable num
+		int num = userinput.nextInt();//assign user input to variable int num
 		
 		if(num < 100) //if statement for if the user input is less than 100
 		{

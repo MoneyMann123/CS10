@@ -22,7 +22,7 @@ public class Assignment12
 		Scanner userinput = new Scanner(System.in);//create scanner object
 		
 		System.out.println("Please enter a grade percentage: ");//ask user to input grade percentage
-		int percentage = userinput.nextInt();//assign user input to variable
+		int percentage = userinput.nextInt();//assign user input to variable int percentage
 		
 		if(percentage < 50) //if statement
 		{

@@ -21,8 +21,8 @@ public class Assignment11
 	
 		Scanner userinput = new Scanner(System.in);//create scanner object
 		
-		System.out.println("Please enter a three digit number: ");//ask user to input
-		int num = userinput.nextInt();//assign user input to variable
+		System.out.println("Please enter a three digit number: ");//ask user to input a three digit number
+		int num = userinput.nextInt();//assign user input to variable int num
 		
 		int digit1 = (num / 100);//record digit1
 		int digit2 = (num % 100) / 10;//record digit2
