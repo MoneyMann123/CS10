@@ -28,23 +28,36 @@ public class Assignment14
 		
 		if(age > 18) 
 		{
-			System.out.println("Adult");
+			System.out.println("You are a Adult");
 		}
 		else if(age > 12 && age < 18) 
 		{
-			System.out.println("Teen");
+			System.out.println("You are a Teen");
 		}
 		else if(age <= 12 && age > 10) 
 		{
-			System.out.println("Preteen");
+			System.out.println("You are a Preteen");
 		}
 		else if(age <= 10 && age > 5) 
 		{
-			System.out.println("Child");
+			System.out.println("You are a Child");
 		}
 		else if(age <= 5 && age > 0) 
 		{
-			System.out.println("Toddler");
+			System.out.println("You are a Toddler");
 		}
 	}
 }
+
+/* Screen Dump
+
+Money Mann 4/27/2022 
+
+
+Enter your age: 
+16
+Your age is: 16
+
+You are a Teen
+
+*/
