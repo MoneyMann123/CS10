@@ -37,13 +37,9 @@ public class Assignment15
 			{
 				System.out.println("You got it right! Congratulation!!");//tell user if they are right
 			}
-			else if(answer1 < firstnum * secondnum) //state if statement for if the user inputed an answer less than the correct answer
+			else //else statement
 			{
-				System.out.println("Try Again");//ask user to try again
-			}
-			else if(answer1 > firstnum * secondnum) //state if statement for if the user inputed an answer greater than the correct answer
-			{
-				System.out.println("Try Again");//ask user to try again
+				System.out.println("Try Again!");//print Try Again! if the user gets the question wrong
 			}
 			break;//break out of case
 			
@@ -55,13 +51,9 @@ public class Assignment15
 			{
 				System.out.println("You got it right! Congratulation!!");//tell user if they are right
 			}
-			else if(answer2 < firstnum + secondnum) //state if statement for if the user inputed an answer less than the correct answer
+			else //else statement
 			{
-				System.out.println("Try Again");//ask user to try again
-			}
-			else if(answer2 > firstnum + secondnum) //state if statement for if the user inputed an answer greater than the correct answer
-			{
-				System.out.println("Try Again");//ask user to try again
+				System.out.println("Try Again!");//print Try Again! if the user gets the question wrong
 			}
 			break;//break out of case
 			
@@ -73,13 +65,9 @@ public class Assignment15
 			{
 				System.out.println("You got it right! Congratulation!!");//tell user if they are right
 			}
-			else if(answer3 < firstnum - secondnum) //state if statement for if the user inputed an answer less than the correct answer
+			else //else statement
 			{
-				System.out.println("Try Again");//ask user to try again
-			}
-			else if(answer3 > firstnum - secondnum) //state if statement for if the user inputed an answer greater than the correct answer
-			{
-				System.out.println("Try Again");//ask user to try again
+				System.out.println("Try Again!");//print Try Again! if the user gets the question wrong
 			}
 			break;//break out of case
 			
@@ -91,13 +79,9 @@ public class Assignment15
 			{
 				System.out.println("You got it right! Congratulation!!");//tell user if they are right
 			}
-			else if(answer4 < firstnum / secondnum) //state if statement for if the user inputed an answer less than the correct answer
+			else //else statement
 			{
-				System.out.println("Try Again");//ask user to try again
-			}
-			else if(answer4 > firstnum / secondnum) //state if statement for if the user inputed an answer greater than the correct answer
-			{
-				System.out.println("Try Again");//ask user to try again
+				System.out.println("Try Again!");//print Try Again! if the user gets the question wrong
 			}
 			break;//break out of case
 			
