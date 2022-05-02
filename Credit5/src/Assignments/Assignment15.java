@@ -102,19 +102,17 @@ public class Assignment15
 			break;//break out of case
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
+/* Screen Dump
+
+Money Mann 4/27/2022 
+
+
+Enter a number from 1 to 4: 
+2
+What is 7 + 7?: 
+14
+You got it right! Congratulation!!
+
+*/
