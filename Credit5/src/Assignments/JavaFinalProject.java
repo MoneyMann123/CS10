@@ -19,9 +19,22 @@ public class JavaFinalProject
 	{
 		Scanner userinput = new Scanner(System.in);//create scanner object
 		
+		System.out.println("Enter 1 if you live in Alberta and would like to travel somewhere in Canada or enter 2 if you plan on travelling outside of Canada: ");
+		int travelling = userinput.nextInt();
 		
-		
-		
-		
+		switch (travelling) 
+		{
+		case 1:
+			System.out.println("Which province would you like to visit?: ");
+			int BritishColumbia = 255;
+			
+			
+			
+			
+			
+			
+			
+		}
+		System.out.println("Sorry, this application is only designed for travelling inside Canada.");
 	}
 }
