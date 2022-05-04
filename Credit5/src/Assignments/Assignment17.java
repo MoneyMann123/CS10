@@ -53,4 +53,12 @@ public class Assignment17
 /*
 Money Mann 5/4/2022 
 
+Enter a GPA or -1 to quit the program: 
+3.7
+magna cum laude
+
+Would you like to enter another GPA or you can enter -1 to quit the application: 
+-1
+Thank you for using our program, have a great day!
+
 */
