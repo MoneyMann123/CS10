@@ -19,15 +19,14 @@ public class JavaFinalProject
 	{
 		Scanner userinput = new Scanner(System.in);//create scanner object
 		
-		System.out.println("Enter 1 if you would like to travel to a province or enter 2 if you would like to travel to a territory (this application is only applicable if you live in Calgary): ");
-		int travelling = userinput.nextInt();
-		
-		switch (travelling) 
+		System.out.println("Would you like to travel to another province? Enter 1 for yes or Enter 2 for no: ");
+		int travel = userinput.nextInt();
+		userinput.nextLine();
+		switch (travel) 
 		{
 		case 1:
 			System.out.println("Enter full name of the province you would you like to visit?: ");
-			int province = userinput.nextInt();
-			
+			String travelling = userinput.nextLine();
 			
 			int BritishColumbia = 255;
 			int Yukon = 675;
@@ -42,17 +41,43 @@ public class JavaFinalProject
 			int PrinceEdwardIsland = 649;
 			int Nunavaut = 370;
 			
-			if(province == British Columbia) 
+			if(travelling.equalsIgnoreCase("British Columbia")) 
 			{
-				System.out.println("The fligth cost to travel to British Columbia is $255.");
+				System.out.println("The price to travel to British Columbia from Calgary is: $" + BritishColumbia);
 			}
-			
-			
-			
-			
-			
-			
-		}
+			else if(travelling.equalsIgnoreCase("Yukon")) 
+			{
+				System.out.println("The price to travel to Yukon from Calgary is: $" + Yukon);
+			}
+			else if(travelling.equalsIgnoreCase("Northwest Territory")) 
+			{
+				System.out.println("The price to travel to Northwest Territory from Calgary is: $" + NorthwestTerritory);
+			}
+			else if(travelling.equalsIgnoreCase("Saskatchewan")) 
+			{
+				System.out.println("The price to travel to Saskatchewan from Calgary is: $" + Saskatchewan);
+			}
+			else if(travelling.equalsIgnoreCase("Manitoba")) 
+			{
+				System.out.println("The price to travel to Manitoba from Calgary is: $" + Manitoba);
+			}
+			else if(travelling.equalsIgnoreCase("Ontario")) 
+			{
+				System.out.println("The price to travel to Ontario from Calgary is: $" + Ontario);
+			}
+			else if(travelling.equalsIgnoreCase("Quebec")) 
+			{
+				System.out.println("The price to travel to Quebec from Calgary is: $" + Quebec);
+			}
+			else if(travelling.equalsIgnoreCase("NewFoundland")) 
+			{
+				System.out.println("The price to travel to NewFoundland from Calgary is: $" + NewFoundland);
+			}
 		
+		
+		
+		
+		
+		}
 	}
 }
