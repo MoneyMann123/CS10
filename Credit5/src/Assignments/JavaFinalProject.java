@@ -25,7 +25,7 @@ public class JavaFinalProject
 		switch (travelling) 
 		{
 		case 1:
-			System.out.println("Which province would you like to visit?: ");
+			System.out.println("Enter full name of the province you would you like to visit?: ");
 			int BritishColumbia = 255;
 			
 			
