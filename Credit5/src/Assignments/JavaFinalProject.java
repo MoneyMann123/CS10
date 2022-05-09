@@ -43,55 +43,55 @@ public class JavaFinalProject
 			
 			if(travelling.equalsIgnoreCase("British Columbia")) 
 			{
-				System.out.println("The price to travel to British Columbia from Calgary is $\n" + BritishColumbia);
+				System.out.println("The price to travel to British Columbia from Calgary is $" + BritishColumbia);
 			}
 			else if(travelling.equalsIgnoreCase("Yukon")) 
 			{
-				System.out.println("The price to travel to Yukon from Calgary is $\n" + Yukon);
+				System.out.println("The price to travel to Yukon from Calgary is $" + Yukon);
 			}
 			else if(travelling.equalsIgnoreCase("Northwest Territory")) 
 			{
-				System.out.println("The price to travel to Northwest Territory from Calgary is $\n" + NorthwestTerritory);
+				System.out.println("The price to travel to Northwest Territory from Calgary is $" + NorthwestTerritory);
 			}
 			else if(travelling.equalsIgnoreCase("Saskatchewan")) 
 			{
-				System.out.println("The price to travel to Saskatchewan from Calgary is $\n" + Saskatchewan);
+				System.out.println("The price to travel to Saskatchewan from Calgary is $" + Saskatchewan);
 			}
 			else if(travelling.equalsIgnoreCase("Manitoba")) 
 			{
-				System.out.println("The price to travel to Manitoba from Calgary is $\n" + Manitoba);
+				System.out.println("The price to travel to Manitoba from Calgary is $" + Manitoba);
 			}
 			else if(travelling.equalsIgnoreCase("Ontario")) 
 			{
-				System.out.println("The price to travel to Ontario from Calgary is $\n" + Ontario);
+				System.out.println("The price to travel to Ontario from Calgary is $" + Ontario);
 			}
 			else if(travelling.equalsIgnoreCase("Quebec")) 
 			{
-				System.out.println("The price to travel to Quebec from Calgary is $\n" + Quebec);
+				System.out.println("The price to travel to Quebec from Calgary is $" + Quebec);
 			}
 			else if(travelling.equalsIgnoreCase("Newfoundland and Labrador")) 
 			{
-				System.out.println("The price to travel to NewFoundland and Labrador from Calgary is $\n" + NewFoundland);
+				System.out.println("The price to travel to NewFoundland and Labrador from Calgary is $" + NewFoundland);
 			}
-			else if(travelling.equalsIgnoreCase("NewBrunswick")) 
+			else if(travelling.equalsIgnoreCase("New Brunswick")) 
 			{
-				System.out.println("The price to travel to NewBrunswick from Calgary is $\n" + NewBrunswick);
+				System.out.println("The price to travel to NewBrunswick from Calgary is $" + NewBrunswick);
 			}
-			else if(travelling.equalsIgnoreCase("NovaScotia")) 
+			else if(travelling.equalsIgnoreCase("Nova Scotia")) 
 			{
-				System.out.println("The price to travel to NovaScotia from Calgary is $\n" + NovaScotia);
+				System.out.println("The price to travel to NovaScotia from Calgary is $" + NovaScotia);
 			}
-			else if(travelling.equalsIgnoreCase("PrinceEdwardIsland")) 
+			else if(travelling.equalsIgnoreCase("Prince Edward Island")) 
 			{
-				System.out.println("The price to travel to PrinceEdwardIsland(PEI) from Calgary is $\n" + PrinceEdwardIsland);
+				System.out.println("The price to travel to PrinceEdwardIsland(PEI) from Calgary is $" + PrinceEdwardIsland);
 			}
 			else if(travelling.equalsIgnoreCase("Nunavaut")) 
 			{
-				System.out.println("The price to travel to Nunavaut from Calgary is $\n" + Nunavaut);
+				System.out.println("The price to travel to Nunavaut from Calgary is $" + Nunavaut);
 			}
 			else 
 			{
-				System.out.println("Please try again, and make sure the spelling is correct.\n");
+				System.out.println("Please try again, and make sure the spelling is correct.");
 			}
 		case 2:
 			System.out.println("Sorry, this application is not meant for international travel.");
