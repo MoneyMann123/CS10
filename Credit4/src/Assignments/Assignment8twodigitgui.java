@@ -80,6 +80,7 @@ public class Assignment8twodigitgui {
 			public void actionPerformed(ActionEvent e) 
 			{
 				output.setText("");
+				dis.setText("");
 				
 				
 			}
