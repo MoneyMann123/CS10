@@ -75,21 +75,6 @@ public class Assignment8twodigitgui {
 		input.setBounds(20, 71, 165, 28);
 		panel.add(input);
 		
-		JButton reset = new JButton("Reset");
-		reset.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) 
-			{
-				output.setText("");
-				dis.setText("");
-				
-				
-			}
-		});
-		reset.setForeground(Color.WHITE);
-		reset.setBackground(new Color(0, 153, 204));
-		reset.setBounds(295, 105, 89, 23);
-		panel.add(reset);
-		
 		JLabel dis = new JLabel("");
 		dis.setHorizontalAlignment(SwingConstants.CENTER);
 		dis.setForeground(Color.WHITE);
@@ -99,8 +84,24 @@ public class Assignment8twodigitgui {
 		JLabel Dis = new JLabel("");
 		Dis.setHorizontalAlignment(SwingConstants.CENTER);
 		Dis.setForeground(Color.WHITE);
-		Dis.setBounds(20, 208, 364, 28);
+		Dis.setBounds(20, 203, 364, 28);
 		panel.add(Dis);
+		
+		JButton clear = new JButton("Clear");
+		clear.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				output.setText("");
+				dis.setText("");
+				Dis.setText("");
+				
+				
+			}
+		});
+		clear.setForeground(Color.WHITE);
+		clear.setBackground(new Color(0, 153, 204));
+		clear.setBounds(295, 105, 89, 23);
+		panel.add(clear);
 		
 		JButton submit = new JButton("Submit");
 		submit.addActionListener(new ActionListener() {
