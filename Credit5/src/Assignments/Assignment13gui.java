@@ -81,6 +81,12 @@ public class Assignment13gui {
 		dis.setBounds(188, 158, 198, 32);
 		input.add(dis);
 		
+		JLabel Dis = new JLabel("");
+		Dis.setForeground(Color.PINK);
+		Dis.setFont(new Font("Segoe Print", Font.PLAIN, 12));
+		Dis.setBounds(188, 125, 198, 32);
+		input.add(Dis);
+		
 		JButton submit = new JButton("Submit");
 		submit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
@@ -90,30 +96,30 @@ public class Assignment13gui {
 				
 				if(num1 < 100)
 				{
-					dis.setText("Price per copy is: $0.30");
+					Dis.setText("Price per copy is: $0.30");
 					dis.setText("Total cost is: $" + num1 * 0.30);
 				}
 				else if(num1 > 100 && num1 < 499) 
 				{
-					dis.setText("Price per copy is: $0.28" + "\n");
+					Dis.setText("Price per copy is: $0.28" + "\n");
 					dis.setText("Total cost is: $" + num1 * 0.28);
 				}
 				else if(num1 > 500 && num1 < 749) 
 				{
-					dis.setText("Price per copy is: $0.27" + "\n");
+					Dis.setText("Price per copy is: $0.27" + "\n");
 					dis.setText("Total cost is: $" + num1 * 0.27);
 				}
 				else if (num1 > 750 && num1 < 1000)
 				{
-					dis.setText("Price per copy is: $0.26" + "\n");
+					Dis.setText("Price per copy is: $0.26" + "\n");
 					dis.setText("Total cost is: $" + num1 * 0.26);
 				}
 				else if(num1 > 1000)
-				{
-					dis.setText("Price per copy is: $0.25" + "\n");
+				{	
+					Dis.setText("Price per copy is: $0.25" + "\n");
 					dis.setText("Total price is: $" + num1 * 0.25);
-				
 				}
+				
 			}
 		});
 		
@@ -131,12 +137,7 @@ public class Assignment13gui {
 		});
 		resest.setBounds(40, 164, 89, 23);
 		input.add(resest);
-		
-		JLabel dis_1 = new JLabel("");
-		dis_1.setForeground(Color.PINK);
-		dis_1.setFont(new Font("Segoe Print", Font.PLAIN, 12));
-		dis_1.setBounds(188, 125, 198, 32);
-		input.add(dis_1);
+	
 		
 	}
 }
