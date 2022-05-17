@@ -76,13 +76,13 @@ public class Assignment13gui {
 		output.setColumns(10);
 		
 		JLabel dis = new JLabel("");
-		dis.setForeground(Color.PINK);
+		dis.setForeground(new Color(0, 191, 255));
 		dis.setFont(new Font("Segoe Print", Font.PLAIN, 12));
 		dis.setBounds(188, 158, 198, 32);
 		input.add(dis);
 		
 		JLabel Dis = new JLabel("");
-		Dis.setForeground(Color.PINK);
+		Dis.setForeground(new Color(0, 191, 255));
 		Dis.setFont(new Font("Segoe Print", Font.PLAIN, 12));
 		Dis.setBounds(188, 125, 198, 32);
 		input.add(Dis);
@@ -132,7 +132,13 @@ public class Assignment13gui {
 		JButton resest = new JButton("Reset");
 		resest.setBackground(Color.PINK);
 		resest.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) 
+			{
+				output.setText("");
+				dis.setText("");
+				Dis.setText("");
+				
+				
 			}
 		});
 		resest.setBounds(40, 164, 89, 23);
